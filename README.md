@@ -1,4 +1,4 @@
-# spring-boot-starter-jcifs
+# jcifs-spring-boot-starter
 Spring Boot Starter For Jcifs
 
 ### 说明
@@ -16,7 +16,7 @@ Spring Boot Starter For Jcifs
 ``` xml
 <dependency>
 	<groupId>${project.groupId}</groupId>
-	<artifactId>spring-boot-starter-jcifs</artifactId>
+	<artifactId>jcifs-spring-boot-starter</artifactId>
 	<version>${project.version}</version>
 </dependency>
 ```
