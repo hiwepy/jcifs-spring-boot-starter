@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,9 +18,10 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import jcifs.smb.SmbFile;
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.filefilter.IOSmbFileFilter;
+import jcifs.smb1.smb1.SmbFile;
+
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.filefilter.IOSmbFileFilter;
 
 public class SMBClientUtils {
 

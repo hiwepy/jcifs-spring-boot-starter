@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -30,21 +30,21 @@ import jcifs.smb.SmbFileFilter;
 
 import org.apache.commons.io.IOCase;
 
-import net.jeebiz.smbclient.filefilter.AgeFileFilter;
-import net.jeebiz.smbclient.filefilter.AndFileFilter;
-import net.jeebiz.smbclient.filefilter.DelegateFileFilter;
-import net.jeebiz.smbclient.filefilter.FalseFileFilter;
-import net.jeebiz.smbclient.filefilter.FileFileFilter;
-import net.jeebiz.smbclient.filefilter.IOSmbFileFilter;
-import net.jeebiz.smbclient.filefilter.MagicNumberFileFilter;
-import net.jeebiz.smbclient.filefilter.NameFileFilter;
-import net.jeebiz.smbclient.filefilter.NotFileFilter;
-import net.jeebiz.smbclient.filefilter.OrFileFilter;
-import net.jeebiz.smbclient.filefilter.PrefixFileFilter;
-import net.jeebiz.smbclient.filefilter.SizeFileFilter;
-import net.jeebiz.smbclient.filefilter.SmbFileFilters;
-import net.jeebiz.smbclient.filefilter.SuffixFileFilter;
-import net.jeebiz.smbclient.filefilter.TrueFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.AgeFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.AndFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.DelegateFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.FalseFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.FileFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.IOSmbFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.MagicNumberFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.NameFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.NotFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.OrFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.PrefixFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.SizeFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.SmbFileFilters;
+import org.jcifs.spring.boot.smb1.filefilter.SuffixFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.TrueFileFilter;
 
 public class SMBFileFilterUtils {
 	

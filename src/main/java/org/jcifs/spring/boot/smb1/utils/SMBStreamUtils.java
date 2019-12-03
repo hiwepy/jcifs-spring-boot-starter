@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -14,12 +14,12 @@ import java.util.List;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.io.CopyStreamProcessListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import jcifs.smb.SmbFile;
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.io.CopyStreamProcessListener;
+import jcifs.smb1.smb1.SmbFile;
 
 public class SMBStreamUtils {
 	

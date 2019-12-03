@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient;
+package org.jcifs.spring.boot.smb1;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
@@ -6,7 +6,7 @@ import java.beans.PropertyDescriptor;
 
 import org.apache.commons.lang3.SystemUtils;
 
-import net.jeebiz.smbclient.io.CopyStreamProcessListener;
+import org.jcifs.spring.boot.smb1.io.CopyStreamProcessListener;
 
 /**
  * Samba客户端的配置

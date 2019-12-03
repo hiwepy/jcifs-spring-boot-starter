@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 import java.io.File;
 import java.io.IOException;

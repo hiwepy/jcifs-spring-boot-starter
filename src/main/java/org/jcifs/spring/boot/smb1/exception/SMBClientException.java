@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.exception;
+package org.jcifs.spring.boot.smb1.exception;
 
 public class SMBClientException extends RuntimeException {
     

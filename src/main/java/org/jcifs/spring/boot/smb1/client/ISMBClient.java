@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.client;
+package org.jcifs.spring.boot.smb1.client;
 
 import java.io.File;
 import java.io.InputStream;
@@ -6,10 +6,11 @@ import java.io.OutputStream;
 
 import javax.servlet.ServletResponse;
 
-import jcifs.smb.SmbFile;
 
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.filefilter.IOSmbFileFilter;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.filefilter.IOSmbFileFilter;
+
+import jcifs.smb1.smb1.SmbFile;
 
 /**
  * SMBClient 客户端接口

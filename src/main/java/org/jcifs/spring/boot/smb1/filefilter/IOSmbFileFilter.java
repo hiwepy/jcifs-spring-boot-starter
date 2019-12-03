@@ -13,12 +13,12 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.jeebiz.smbclient.filefilter;
+package org.jcifs.spring.boot.smb1.filefilter;
 
-import jcifs.smb.SmbException;
-import jcifs.smb.SmbFile;
-import jcifs.smb.SmbFileFilter;
-import jcifs.smb.SmbFilenameFilter;
+import jcifs.smb1.smb1.SmbException;
+import jcifs.smb1.smb1.SmbFile;
+import jcifs.smb1.smb1.SmbFileFilter;
+import jcifs.smb1.smb1.SmbFilenameFilter;
 
 public interface IOSmbFileFilter extends SmbFileFilter, SmbFilenameFilter {
 

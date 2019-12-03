@@ -1,9 +1,9 @@
-package net.jeebiz.smbclient.client;
+package org.jcifs.spring.boot.smb1.client;
 
 
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.SMBClientConfig;
-import net.jeebiz.smbclient.pool.SMBClientPool;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.SMBClientConfig;
+import org.jcifs.spring.boot.smb1.pool.SMBClientPool;
  
 /**
  * 基于 Apache Pool2的SMBClient共享文件资源服务客户端实现

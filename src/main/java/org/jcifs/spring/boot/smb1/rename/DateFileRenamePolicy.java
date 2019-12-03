@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.rename;
+package org.jcifs.spring.boot.smb1.rename;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import net.jeebiz.smbclient.SMBClientConfig;
+import org.jcifs.spring.boot.smb1.SMBClientConfig;
 
 public class DateFileRenamePolicy implements FileRenamePolicy {
 

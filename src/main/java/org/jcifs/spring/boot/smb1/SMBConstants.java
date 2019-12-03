@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient;
+package org.jcifs.spring.boot.smb1;
 
 public final class SMBConstants {
 

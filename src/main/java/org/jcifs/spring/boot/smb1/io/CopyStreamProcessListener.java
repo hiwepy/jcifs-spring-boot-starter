@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.io;
+package org.jcifs.spring.boot.smb1.io;
 
 /**
  * 数据处理进度监听抽象实现，可继承该对象进行进度检测

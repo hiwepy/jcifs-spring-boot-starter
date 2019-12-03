@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,8 +8,8 @@ import java.nio.channels.FileChannel;
 
 import org.apache.commons.io.IOUtils;
 
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.io.CopyStreamProcessListener;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.io.CopyStreamProcessListener;
 
 public class SMBChannelUtils extends SMBStreamUtils {
     

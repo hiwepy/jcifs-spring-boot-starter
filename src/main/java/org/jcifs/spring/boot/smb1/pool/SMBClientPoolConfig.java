@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.pool;
+package org.jcifs.spring.boot.smb1.pool;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.slf4j.Logger;

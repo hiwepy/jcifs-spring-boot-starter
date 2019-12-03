@@ -1,7 +1,7 @@
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.io.CopyStreamProcessListener;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.io.CopyStreamProcessListener;
 
 public class SMBCopyListenerUtils {
 

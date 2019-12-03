@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient;
+package org.jcifs.spring.boot.smb1;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -15,10 +15,11 @@ import org.apache.commons.lang3.reflect.ConstructorUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import jcifs.smb.NtlmPasswordAuthentication;
-import jcifs.smb.SmbFile;
-import jcifs.smb.SmbFileInputStream;
-import net.jeebiz.smbclient.io.CopyStreamProcessListener;
+import jcifs.smb1.smb1.NtlmPasswordAuthentication;
+import jcifs.smb1.smb1.SmbFile;
+import jcifs.smb1.smb1.SmbFileInputStream;
+
+import org.jcifs.spring.boot.smb1.io.CopyStreamProcessListener;
 
 public class SMBClient extends SmbFile {
 	

@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.client;
+package org.jcifs.spring.boot.smb1.client;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -10,16 +10,17 @@ import java.util.List;
 
 import javax.servlet.ServletResponse;
 
-import jcifs.smb.SmbFile;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.io.output.ByteArrayOutputStream;
 
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.SMBClientBuilder;
-import net.jeebiz.smbclient.filefilter.IOSmbFileFilter;
-import net.jeebiz.smbclient.utils.SMBClientUtils;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.SMBClientBuilder;
+import org.jcifs.spring.boot.smb1.filefilter.IOSmbFileFilter;
+import org.jcifs.spring.boot.smb1.utils.SMBClientUtils;
+
+import jcifs.smb1.smb1.SmbFile;
  
 /**
  * 基于ThreadLocal多线程对象复用的SMBClient共享文件资源服务客户端实现

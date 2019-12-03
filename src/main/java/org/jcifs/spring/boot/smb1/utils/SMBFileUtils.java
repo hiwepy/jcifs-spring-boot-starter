@@ -13,26 +13,26 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Collection;
 
-import jcifs.smb.SmbException;
-import jcifs.smb.SmbFile;
-import jcifs.smb.SmbFileFilter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.jeebiz.smbclient.filefilter.FalseFileFilter;
-import net.jeebiz.smbclient.filefilter.FileFileFilter;
-import net.jeebiz.smbclient.filefilter.IOSmbFileFilter;
-import net.jeebiz.smbclient.filefilter.SmbFileFilters;
-import net.jeebiz.smbclient.filefilter.SuffixFileFilter;
-import net.jeebiz.smbclient.filefilter.TrueFileFilter;
+import jcifs.smb1.smb1.SmbFile;
+import jcifs.smb1.smb1.SmbFileFilter;
+
+import org.jcifs.spring.boot.smb1.filefilter.FalseFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.FileFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.IOSmbFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.SmbFileFilters;
+import org.jcifs.spring.boot.smb1.filefilter.SuffixFileFilter;
+import org.jcifs.spring.boot.smb1.filefilter.TrueFileFilter;
 
 public class SMBFileUtils {
 

@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient;
+package org.jcifs.spring.boot.smb1;
 
 import java.io.IOException;
 
@@ -12,10 +12,11 @@ import org.slf4j.LoggerFactory;
 import jcifs.SmbSession;
 import jcifs.SmbTransportPool;
 import jcifs.netbios.UniAddress;
-import jcifs.smb.NtlmPasswordAuthentication;
 import jcifs.smb.SmbTransportPoolImpl;
-import net.jeebiz.smbclient.io.CopyStreamProcessListener;
-import net.jeebiz.smbclient.utils.SMBPathUtils;
+import jcifs.smb1.smb1.NtlmPasswordAuthentication;
+
+import org.jcifs.spring.boot.smb1.io.CopyStreamProcessListener;
+import org.jcifs.spring.boot.smb1.utils.SMBPathUtils;
 
 /**
  *  SmbFile对象构建器

@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.utils;
+package org.jcifs.spring.boot.smb1.utils;
 
 import java.io.EOFException;
 import java.io.File;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import jcifs.smb.SmbFile;
+import jcifs.smb1.smb1.SmbFile;
 
 
 public class SMBExceptionUtils {

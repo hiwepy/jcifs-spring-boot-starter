@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.io;
+package org.jcifs.spring.boot.smb1.io;
 
 import java.math.BigDecimal;
 

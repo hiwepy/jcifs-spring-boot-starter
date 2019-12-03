@@ -22,7 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import net.jeebiz.smbclient.client.ISMBClient;
+import org.jcifs.spring.boot.smb1.client.ISMBClient;
 
 @EnableSMBClient
 @SpringBootApplication

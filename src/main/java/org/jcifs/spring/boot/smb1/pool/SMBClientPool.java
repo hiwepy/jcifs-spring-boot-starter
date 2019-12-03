@@ -1,8 +1,8 @@
-package net.jeebiz.smbclient.pool;
+package org.jcifs.spring.boot.smb1.pool;
 
 import org.apache.commons.pool2.impl.GenericObjectPool;
 
-import net.jeebiz.smbclient.SMBClient;
+import org.jcifs.spring.boot.smb1.SMBClient;
 
 /**
  * SMBClient连接池

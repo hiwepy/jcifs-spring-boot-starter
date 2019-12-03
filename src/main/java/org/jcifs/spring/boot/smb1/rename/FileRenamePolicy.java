@@ -1,8 +1,8 @@
-package net.jeebiz.smbclient.rename;
+package org.jcifs.spring.boot.smb1.rename;
 
 import java.io.File;
 
-import net.jeebiz.smbclient.SMBClientConfig;
+import org.jcifs.spring.boot.smb1.SMBClientConfig;
 
 public interface FileRenamePolicy {
 

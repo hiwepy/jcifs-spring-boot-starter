@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.jeebiz.smbclient.filefilter;
+package org.jcifs.spring.boot.smb1.filefilter;
 
 import java.io.Serializable;
 import java.util.List;

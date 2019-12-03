@@ -1,4 +1,4 @@
-package net.jeebiz.smbclient.pool;
+package org.jcifs.spring.boot.smb1.pool;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -8,8 +8,8 @@ import org.apache.commons.pool2.impl.DefaultPooledObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.jeebiz.smbclient.SMBClient;
-import net.jeebiz.smbclient.SMBClientBuilder;
+import org.jcifs.spring.boot.smb1.SMBClient;
+import org.jcifs.spring.boot.smb1.SMBClientBuilder;
 
 /**
  * @author 		： <a href="https://github.com/vindell">vindell</a>

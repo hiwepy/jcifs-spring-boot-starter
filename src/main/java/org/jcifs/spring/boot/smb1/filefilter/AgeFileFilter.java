@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package net.jeebiz.smbclient.filefilter;
+package org.jcifs.spring.boot.smb1.filefilter;
 
 import java.io.File;
 import java.io.Serializable;
@@ -21,7 +21,7 @@ import java.util.Date;
 
 import jcifs.smb.SmbFile;
 
-import net.jeebiz.smbclient.utils.SMBFileUtils;
+import org.jcifs.spring.boot.smb1.utils.SMBFileUtils;
 
 @SuppressWarnings("serial")
 public class AgeFileFilter extends AbstractFileFilter  implements Serializable {
