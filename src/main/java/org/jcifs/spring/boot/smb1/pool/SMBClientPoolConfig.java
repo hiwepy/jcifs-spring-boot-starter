@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
  * 基于apache-pool2的对象池初始化对象
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 public class SMBClientPoolConfig extends GenericObjectPoolConfig {
 	

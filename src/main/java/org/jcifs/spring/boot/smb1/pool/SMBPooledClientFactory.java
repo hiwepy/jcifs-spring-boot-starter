@@ -12,7 +12,7 @@ import org.jcifs.spring.boot.smb1.SMBClient;
 import org.jcifs.spring.boot.smb1.SMBClientBuilder;
 
 /**
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 public class SMBPooledClientFactory extends BasePooledObjectFactory<SMBClient> {
 

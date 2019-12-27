@@ -2,7 +2,7 @@ package org.jcifs.spring.boot.smb1.io;
 
 /**
  * 数据处理进度监听抽象实现，可继承该对象进行进度检测
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 public abstract class CopyStreamProcessListener {
 	

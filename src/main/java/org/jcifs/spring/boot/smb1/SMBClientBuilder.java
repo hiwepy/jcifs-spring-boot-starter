@@ -20,7 +20,7 @@ import org.jcifs.spring.boot.smb1.utils.SMBPathUtils;
 
 /**
  *  SmbFile对象构建器
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 public class SMBClientBuilder implements Builder<SMBClient> {
 	

@@ -7,7 +7,7 @@ import org.jcifs.spring.boot.smb1.pool.SMBClientPool;
  
 /**
  * 基于 Apache Pool2的SMBClient共享文件资源服务客户端实现
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 public class SMBPooledResourceClient extends SMBResourceClient{
 	
