@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>com.github.hiwepy</groupId>
+	<groupId>io.github.hiwepy</groupId>
 	<artifactId>jcifs-spring-boot-starter</artifactId>
 	<description>Spring Boot Starter For Jcifs</description>
 	<version>1.0.0-SNAPSHOT</version>
@@ -498,7 +498,7 @@
 			<artifactId>jcifs</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.github.hiwepy</groupId>
+			<groupId>io.github.hiwepy</groupId>
 			<artifactId>jcifs-pool</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
